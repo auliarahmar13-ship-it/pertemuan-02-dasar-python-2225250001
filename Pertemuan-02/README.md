@@ -179,6 +179,55 @@ Kedua titik memiliki nilai x yang sama sehingga **dx = 0**. Jarak hanya berubah 
 
 ---
 
+# Pertemuan 02 – Dasar Python
+
+## Identitas
+
+| Keterangan | Isi |
+|---|---|
+| Nama | Aulia Rahma Ramadhani |
+| NIM | 2225250001 |
+| Kelas | 3A |
+| Mata Kuliah | Algoritma dan Pemrograman |
+
+---
+
+## Tujuan Repository
+
+Repository ini berisi latihan dan tugas Pertemuan 02 untuk mempelajari dasar Python, meliputi input, output, variabel, tipe data, operasi aritmatika, serta pembuatan program sederhana.
+
+---
+
+## Daftar Berkas
+
+| Berkas | Fungsi |
+|---|---|
+| `latihan/01_biodata.py` | Menampilkan biodata dan menghitung umur |
+| `latihan/02_persegi_panjang.py` | Menghitung luas dan keliling persegi panjang |
+| `latihan/03_konversi_suhu.py` | Mengubah suhu Celsius ke Fahrenheit & Kelvin |
+| `latihan/04_nilai_akhir.py` | Menghitung nilai akhir dari bobot tugas, UTS, UAS |
+| `tugas/kalkulator_koordinat.py` | Menghitung jarak, perubahan koordinat, dan titik tengah |
+
+---
+
+## Hasil Test Case Tugas Utama
+
+| Kasus | Titik A | Titik B | dx | dy | Jarak | Titik Tengah |
+|---|---|---|---:|---:|---:|---|
+| 1 | (0,0) | (3,4) | 3.00 | 4.00 | **5.00** | (1.50, 2.00) |
+| 2 | (-2,1) | (4,1) | 6.00 | 0.00 | **6.00** | (1.00, 1.00) |
+| 3 | (2.5,-1) | (2.5,3) | 0.00 | 4.00 | **4.00** | (2.50, 1.00) |
+
+### Penjelasan Test Case
+
+| Kasus | Penjelasan |
+|---|---|
+| 1 | Menguji jarak diagonal segitiga 3–4–5 sehingga hasil jarak 5.00. |
+| 2 | Menguji perpindahan horizontal karena nilai y sama (dy = 0). |
+| 3 | Menguji perpindahan vertikal karena nilai x sama (dx = 0). |
+
+---
+
 # Cara Menjalankan
 
 Buka terminal pada folder utama proyek, kemudian jalankan file yang ingin diuji dengan perintah berikut:
